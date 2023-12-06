@@ -1,0 +1,40 @@
+body{
+
+    background: linear-gradient(to bottom, #030322 0%, #191731 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.size{
+    width: 3rem;
+    height: 2rem;
+    transition: ease-out .3s;
+    color: rgb(129, 133, 150);
+}
+
+.size:hover{
+    color: aliceblue;
+    transition: ease-in-out .2s;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.color1{
+    color: rgb(198, 204, 209);
+}
+
+.color2{
+    color: rgb(175, 200, 221);
+}
+
+
+p{
+    user-select: none;
+}
